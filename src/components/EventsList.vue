@@ -28,9 +28,9 @@ export default {
           name: 'Beowulf Reading',
           category: 'Culture',
           description: 'Spend an elegant night of dinner and storytelling. Readings by Vilkas the Viking.',
-          featuredImage: '../../public/helmets400x267.jpg',
+          featuredImage: '/helmets400x267.jpg',
           images: [
-            '../../public/helmets400x267.jpg'
+            '/helmets400x267.jpg'
           ],
           location: '1111 Norse Ave',
           date: '9-25-2021',
@@ -41,9 +41,9 @@ export default {
           name: 'Shield Recycling',
           category: 'Charity and Donations',
           description: 'Come to our donation drive to help us replenish shields.  Enjoy an afternoon of games, food, music and much more.',
-          featuredImage: '../../public/helmets400x267.jpg',
+          featuredImage: '/helmets400x267.jpg',
           images: [
-            '../../public/helmets400x267.jpg'
+            '/helmets400x267.jpg'
           ],
           location: '123 Runestone Way',
           date: '11-21-2021',

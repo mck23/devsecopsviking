@@ -40,7 +40,7 @@ export default {
   .hero {    
     text-align: center;
      //background-image: url('https://cdn.auth0.com/blog/vue-meetup/event-banner.png');
-    background-image: url('../../public/ship1391x786.jpg');
+    background-image: url('/ship1391x786.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
