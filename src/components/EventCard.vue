@@ -19,7 +19,7 @@ export default {
 
 <style lang="scss" scoped>
   .card {
-    background-image: url('../../public/helmets400x267.jpg');
+    background-image: url('/helmets400x267.jpg');
     height: 200px;
     background-position: center;
     background-size: cover;
