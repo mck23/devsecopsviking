@@ -1,0 +1,9 @@
+version: 2
+
+projectIgnorePaths:
+  - "node_modules"
+  - "dist"
+
+triggerPaths:
+  - "package.json"
+  - "package-lock.json"
