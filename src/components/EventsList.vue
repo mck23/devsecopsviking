@@ -33,7 +33,7 @@ export default {
             '/helmets400x267.jpg'
           ],
           location: '1111 Norse Ave',
-          date: '9-25-2021',
+          date: '11-25-2026',
           time: '7:30'
         },
         {
@@ -46,7 +46,7 @@ export default {
             '/helmets400x267.jpg'
           ],
           location: '123 Runestone Way',
-          date: '11-21-2021',
+          date: '1-21-2027',
           time: '12:00'
         }
       ]

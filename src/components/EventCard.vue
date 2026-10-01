@@ -3,17 +3,32 @@
     <div class="card">
       <div class="card-content">
         <h2 class="is-size-4 has-text-weight-bold">{{ event.name }}</h2>
-        <small class="event-date">{{ event.date }}</small>
+        <small class="event-date">{{ formattedEventDate }}</small>  
         <span>{{ event.location }}</span>
       </div>
     </div>
   </div>
 </template>
 <script>
+import dayjs from 'dayjs'
+
 export default {
   props: [
     'event'
-  ]
+  ],
+  computed: {
+    formattedEventDate() {
+      const date = this.event.date
+
+      if (!date) return 'Date to be announced'
+
+      const parsedDate = dayjs(date)
+
+      return parsedDate.isValid()
+        ? parsedDate.format('MMMM D, YYYY')
+        : date
+    }
+  }
 }
 </script>
 
